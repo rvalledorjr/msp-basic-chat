@@ -1,0 +1,13 @@
+name: BasicChat
+main: com.valledor.msp.basicchat.BasicChat
+description: Used to broadcast messages to all online players or those nearby.
+version: 0.4
+api-version: 1.16
+author: develmode
+commands:
+  ooc:
+    description: Sends message to all players.
+    usage: /<command>
+  looc:
+    description: Sends message to players in the periphery.
+    usage: /<command>
